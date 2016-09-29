@@ -1,4 +1,4 @@
-{ readFile, utils: { sheet_to_json: convertSheetToJson } } = require 'xlsx'
+{ readFile, utils: { sheet_to_json: convertSheetToJson } } = require '@redisrupt/xlsx'
 Buffer = require '../Buffer'
 
 # OOXML Excel (.xlsx) reader mixin for node-datapumps.
@@ -26,7 +26,7 @@ Buffer = require '../Buffer'
 #  * Alternatively, you can set worksheet from an already loaded workbook:
 #    ```coffee
 #    { ExcelReaderMixin } = require('datapumps/mixins')
-#    xlsx = require 'xlsx'
+#    xlsx = require '@redisrupt/xlsx'
 #    xlsx.readFile 'path/to/myWorkbook.xlsx'
 #    pump1
 #      .mixin ExcelReaderMixin

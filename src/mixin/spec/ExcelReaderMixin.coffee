@@ -1,7 +1,7 @@
 require 'should'
 sinon = require 'sinon'
 ExcelReaderMixin = require '../ExcelReaderMixin'
-xlsx = require 'xlsx'
+xlsx = require '@redisrupt/xlsx'
 
 describe 'ExcelReaderMixin(options)', ->
   it 'should require worksheet property', ->
