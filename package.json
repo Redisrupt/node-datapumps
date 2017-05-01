@@ -15,13 +15,13 @@
   "bugs": {
     "url": "https://github.com/agmen-hu/node-datapumps/issues"
   },
-  "version": "0.6.0",
+  "version": "0.7.0",
   "dependencies": {
+    "@redisrupt/xlsx": "0.10.0",
     "bluebird": "2.11.0",
     "excel4node": "0.0.10",
     "fast-csv": "0.5.7",
-    "@redisrupt/xlsx": "0.10.0",
-    "restler": "3.2.2"
+    "restler": "3.4.0"
   },
   "devDependencies": {
     "coffee-script": "^1.7.1",

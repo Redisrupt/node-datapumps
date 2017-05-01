@@ -1,3 +1,6 @@
+# Updated datapumps restler module
+This was done in order to update the qs module to one that doesn't have the Denial of Service (Memory Exhaustion) issue reported by synk.
+
 # Datapumps: Simple ETL for node.js
 [![Travis CI Badge](https://api.travis-ci.org/agmen-hu/node-datapumps.svg?branch=master)](https://travis-ci.org/agmen-hu/node-datapumps "Travis CI")
 
